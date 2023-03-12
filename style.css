@@ -1,21 +1,29 @@
 .container {
-  width: 90vw;
-  height: 90vh;
-  background: #5ea3ee;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 350px;
+  height: 500px;
+  background: #0c92ad;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-div {
-  border: 20px solid white;
-  width: 100px;
-  height: 100px;
-}
-
 img {
+  display: flexbox;
   width: 200px;
   height: 200px;
-  object-fit: scale-down;
+}
+
+h1 {
+  color: white;
 }
